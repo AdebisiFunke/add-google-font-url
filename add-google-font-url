@@ -1,0 +1,23 @@
+<?php
+/*
+Plugin Name: Add Google Font
+Plugin URI: https://github.com/wpdevtechsupport/add-google-analytics
+Description: This Plugin will add Google font url within wordpress head tag 
+Version: 1.0.0
+Author: Funke Adebisi
+Author URI:https://wpdevtechsupport.com
+License: GNU General Public License v2 or later
+Plugin will add Google font url within wordpress head tag 
+*/
+
+if (!defined('ABSPATH')) {
+    exit; // Exit if accessed directly.
+}
+
+add_action('wp_head', 'googlefonturl');
+function googlefonturl()
+{
+    echo '<link rel="stylesheet" id="google-font-aleo" href="https://fonts.googleapis.com/css2?family=Aleo&display=swap">';
+    echo '<link rel="stylesheet" id="google-font-vibes" href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap">';
+    echo '<link rel="stylesheet" id="google-font-Libre" href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap">';
+}
