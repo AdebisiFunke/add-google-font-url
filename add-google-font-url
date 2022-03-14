@@ -1,11 +1,11 @@
 <?php
 /*
 Plugin Name: Add Google Font
-Plugin URI: https://github.com/wpdevtechsupport/add-google-analytics
+Plugin URI: https://github.com/AdebisiFunke/add-google-font-url
 Description: This Plugin will add Google font url within wordpress head tag 
 Version: 1.0.0
 Author: Funke Adebisi
-Author URI:https://wpdevtechsupport.com
+Author URI:https://adebisifunke.github.io/funkeadebisi.github.io/
 License: GNU General Public License v2 or later
 Plugin will add Google font url within wordpress head tag 
 */
